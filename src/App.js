@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import { ClassNames } from '@emotion/react';
+import Header from './components/Header.jsx';
+import Tindercards from './components/Tindercards.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App-body'>
+      {/* Header */}
+      <Header />
+      {/* Section */}
+      <Tindercards />
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }

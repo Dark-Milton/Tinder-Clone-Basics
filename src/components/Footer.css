@@ -1,0 +1,36 @@
+.Footer-body{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    bottom: 40px;
+}
+.Footer-body .icons{
+    height: 50px;
+    transform: scale(1.4);
+}
+.Footer-body .replay{
+    padding: 3vw !important;
+    color: pink;
+    box-shadow: 0 10px 40px 0px rgba(0, 0, 0, 0.5);
+}
+.Footer-body .close{
+    padding: 3vw !important;
+    color: rgb(255, 60, 60);
+    box-shadow: 0 10px 40px 0px rgba(0, 0, 0, 0.5);
+}
+.Footer-body .star{
+    padding: 3vw !important;
+    color: rgb(15, 255, 239);
+    box-shadow: 0 10px 40px 0px rgba(0, 0, 0, 0.5);
+}
+.Footer-body .favorite{
+    padding: 3vw !important;
+    color: rgb(255, 60, 60);
+    box-shadow: 0 10px 40px 0px rgba(0, 0, 0, 0.5);
+}
+.Footer-body .flashon{
+    padding: 3vw !important;
+    color: purple;
+    box-shadow: 0 10px 40px 0px rgba(0, 0, 0, 0.5);
+}

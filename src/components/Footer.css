@@ -9,9 +9,18 @@
     height: 50px;
     transform: scale(1.4);
 }
+.Footer-body .replay,
+.Footer-body .star,
+.Footer-body .close,
+.Footer-body .favorite,
+.Footer-body .flashon{
+    background-color: white;
+}
+
+
 .Footer-body .replay{
     padding: 3vw !important;
-    color: pink;
+    color: purple;
     box-shadow: 0 10px 40px 0px rgba(0, 0, 0, 0.5);
 }
 .Footer-body .close{
